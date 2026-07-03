@@ -54,7 +54,8 @@ A transcrição é apenas o primeiro passo. A inteligência da nossa solução f
 ### 3. Dashboard de Monitoramento (NPS & Sentimentos)
 Para que a diretoria e os gestores da TOTVS consigam visualizar os resultados em tempo real, integramos os dados extraídos pelo nosso pipeline a um dashboard analítico. Ele consolida o volume de gravações processadas, a distribuição de sentimentos e as médias de avaliação por setor, facilitando a tomada de decisão rápida sobre os clientes detratores:
 
-![Dashboard Indata](images/image_3b05a7.png)
+![Dashboard Indata](<img width="1311" height="731" alt="dashboard_totvs" src="https://github.com/user-attachments/assets/0a6e5f43-299b-4be6-ad8b-a692e62a4c83" />
+)
 
 ## 💻 Tecnologias Utilizadas
 
