@@ -1,2 +1,26 @@
-# Challenge-TOTVS
-Desafio de projeto de final de curso da FIAP com parceria TOTVS
+# Enterprise Challenge FIAP & TOTVS (012024)
+
+## 📌 Introdução
+Este projeto foi desenvolvido como parte do **Enterprise Challenge**, uma atividade extensionista do curso de **Tecnologia em Data Science, Big Data, BI & Data Engineering** da **FIAP**. 
+
+O objetivo principal do Challenge é simular a experiência profissional do mercado de trabalho através de uma metodologia *hands-on*, aplicando técnicas, ferramentas e boas práticas acadêmicas para propor soluções reais a desafios demandados por empresas parceiras. Nesta edição, o projeto foi construído em parceria com a **TOTVS**, uma das maiores empresas de tecnologia do mundo e líder no mercado de Software de Gestão Empresarial (ERP) no Brasil[cite: 1].
+
+---
+
+## 🚀 O Desafio Proposto
+A TOTVS realiza pesquisas de **NPS (Net Promoter Score)** com seus clientes[cite: 1]. Para os clientes classificados como detratores (aqueles com experiências negativas), a empresa realiza um diagnóstico interno para direcionar os problemas às áreas responsáveis pelas resoluções[cite: 1]. 
+
+### Cenário Atual e Problemática
+Atualmente, o processo de transcrição das ligações de suporte e pesquisas possui **baixa qualidade**[cite: 1]. Essa perda de fidelidade nos textos ocorre devido a:
+* Ruídos nos áudios das gravações[cite: 1];
+* Variedade de sotaques e uso de gírias por parte dos clientes[cite: 1];
+* Pouco suporte nativo das ferramentas atuais para o idioma português[cite: 1].
+
+Como a empresa processa uma média de **80 ligações por dia**, o tempo e o custo operacional tornam-se fatores críticos para o negócio[cite: 1].
+
+### O Objetivo do Projeto
+O desafio do grupo consiste em **desenvolver um sistema eficiente de transcrição de áudios de ligações sobre a pesquisa de NPS**[cite: 1]. A solução deve focar em:
+1. **Alta Qualidade de Transcrição:** Garantir precisão na conversão de áudio para texto, superando as barreiras de ruídos e sotaques regionais[cite: 1].
+2. **Processamento de Linguagem Natural (NLP):** Aplicar técnicas de NLP para extrair *insights* valiosos dos textos transcritos[cite: 1].
+3. **Análise de Sentimentos e Classificação:** Automatizar o diagnóstico mapeando os macro motivos das insatisfações e medindo a "temperatura" da pressão dos clientes para priorização de ações internas da TOTVS[cite: 1].
+4. **Eficiência de Custo:** Priorizar o uso de ferramentas e bibliotecas *open-source* para viabilizar o processamento em lotes dentro do volume diário da companhia[cite: 1].
