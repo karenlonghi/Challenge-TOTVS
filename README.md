@@ -29,18 +29,19 @@ O desafio do grupo consiste em desenvolver um sistema eficiente de transcrição
 
 ## 🛠️ Solução Desenvolvida & Arquitetura Técnica
 
-Para solucionar o problema de baixa qualidade de transcrição e viabilizar a eficiência de custo exigida, o grupo desenvolveu um pipeline em Python focado em inteligência de áudio:
+Para solucionar o problema de baixa qualidade de transcrição e viabilizar a eficiência de custo exigida, desenvolvemos um pipeline em Python focado em inteligência de áudio:
 
 ### 1. Transcrição com OpenAI Whisper (Open-Source)
-Como o volume é de 80 ligações/dia, optou-se pela utilização do **Whisper**, o modelo estado-da-arte em reconhecimento de fala da OpenAI que roda de forma open-source. No notebook, o grupo realizou um benchmark avaliando diferentes capacidades do modelo utilizando um áudio de NPS real da TOTVS como caso de teste:
+Como o volume é de 80 ligações/dia, optou-se pela utilização do **Whisper**, modelo da OpenAI que roda de forma open-source. No notebook, realizamos um benchmark avaliando diferentes capacidades do modelo utilizando um áudio de NPS real da TOTVS como caso de teste:
 * **Modelo small:** Mais leve e rápido, porém propenso a entrar em loops de repetição em trechos com silêncio ou ruído.
 * **Modelo medium e large:** Apresentaram performance excepcional, superando as barreiras de ruídos da linha e sotaques. Conseguiram capturar com precisão nomes de filiais (ex: Uberlândia, Rio Preto), dados sensíveis (CNPJ, e-mails) e as notas atribuídas a cada setor avaliado na pesquisa.
 
-### 2. Preparação para Processamento Cognitivo e Síntese (NLP & TTS)
-Além da transcrição (Speech-to-Text), o ambiente do projeto foi preparado com as fundações necessárias para a automação completa do diagnóstico:
-* **ffmpeg-python:** Para a manipulação, limpeza e leitura ágil dos formatos de áudio do sistema.
-* **API OpenAI (ChatGPT):** Integrada para a camada de Processamento de Linguagem Natural (NLP), viabilizando a extração automática de macro motivos, resumos estruturados e análise de sentimento/temperatura do cliente.
-* **API ElevenLabs:** Estruturada para cenários onde a TOTVS necessite de respostas e interações via síntese de voz ultra-realista por IA (Text-to-Speech).
+### 2. O Fluxo de Inteligência de Dados
+A transcrição é apenas o primeiro passo. A inteligência da nossa solução funciona como uma esteira automatizada:
+1. **Tratamento de Áudio:** O `ffmpeg` faz a leitura e a limpeza prévia do arquivo de som.
+2. **Speech-to-Text:** O Whisper extrai o texto fiel da chamada (o que resolve o problema da perda de qualidade).
+3. **Análise de Sentimento e Classificação (NLP):** O texto limpo é alimentado na API da OpenAI (ChatGPT) para ler a conversa e identificar o nível de urgência do cliente detrator, mapeando automaticamente o "macro motivo" da insatisfação.
+4. **Cenários de Retorno por Voz:** Deixamos a estrutura integrada à API da ElevenLabs para que o sistema possa, no futuro, gerar alertas falados ou interagir de volta utilizando síntese de voz ultra-realista.
 
 ---
 
