@@ -5,13 +5,13 @@
 ![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
 ![OpenAI Whisper](https://img.shields.io/badge/OpenAI_Whisper-412991?style=for-the-badge&logo=openai&logoColor=white)
 
-## 📌 Introdução
+## Introdução
 
 Este projeto foi desenvolvido como parte do **Enterprise Challenge**, uma atividade extensionista do curso de **Tecnologia em Data Science, Big Data, BI & Data Engineering** da **FIAP**. 
 
 O objetivo principal do Challenge é simular a experiência profissional do mercado de trabalho através de uma metodologia hands-on, aplicando técnicas, ferramentas e boas práticas acadêmicas para propor soluções reais a desafios demandados por empresas parceiras. Nesta edição, o projeto foi construído em parceria com a **TOTVS**, uma das maiores empresas de tecnologia do mundo e líder no mercado de Software de Gestão Empresarial (ERP) no Brasil.
 
-## 🚀 O Desafio Proposto
+## O Desafio Proposto
 
 A TOTVS realiza pesquisas de **NPS (Net Promoter Score)** com seus clientes. Para os clientes classificados como detratores (aqueles com experiências negativas), a empresa realiza um diagnóstico interno para direcionar os problemas às áreas responsáveis pelas resoluções. 
 
@@ -32,7 +32,7 @@ O desafio consiste em desenvolver um sistema eficiente de transcrição de áudi
 3. **Análise de Sentimentos e Classificação:** Automatizar o diagnóstico mapeando os macro motivos das insatisfações e medindo a "temperatura" da pressão dos clientes para priorização de ações internas da TOTVS.
 4. **Eficiência de Custo:** Priorizar o uso de ferramentas e bibliotecas open-source para viabilizar o processamento em lotes dentro do volume diário da companhia.
 
-## 🛠️ Solução Desenvolvida & Arquitetura Técnica
+## Solução Desenvolvida & Arquitetura Técnica
 
 Para solucionar o problema de baixa qualidade de transcrição e viabilizar a eficiência de custo exigida, desenvolvemos um pipeline em Python focado em inteligência de áudio.
 
@@ -58,7 +58,7 @@ Para que a diretoria e os gestores da TOTVS consigam visualizar os resultados em
 ![Dashboard Indata 2](https://github.com/user-attachments/assets/88bded83-8200-4c08-8c22-8e0ea7f1c5be)
 
 
-## 💻 Tecnologias Utilizadas
+## Tecnologias Utilizadas
 
 * **Processamento de Áudio:** librosa, soundfile, ffmpeg-python
 * **Machine Learning & NLP:** openai-whisper, openai (API), tensorflow, keras
