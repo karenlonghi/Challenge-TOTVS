@@ -42,6 +42,11 @@ A transcrição é apenas o primeiro passo. A inteligência da nossa solução f
 2. **Speech-to-Text:** O Whisper extrai o texto fiel da chamada (o que resolve o problema da perda de qualidade).
 3. **Análise de Sentimento e Classificação (NLP):** O texto limpo é alimentado na API da OpenAI (ChatGPT) para ler a conversa e identificar o nível de urgência do cliente detrator, mapeando automaticamente o "macro motivo" da insatisfação.
 4. **Cenários de Retorno por Voz:** Deixamos a estrutura integrada à API da ElevenLabs para que o sistema possa, no futuro, gerar alertas falados ou interagir de volta utilizando síntese de voz ultra-realista.
+### 3. Dashboard de Monitoramento (NPS & Sentimentos)
+
+Para que a diretoria e os gestores da TOTVS consigam visualizar os resultados em tempo real, integramos os dados extraídos pelo nosso pipeline a um dashboard analítico. Ele consolida o volume de gravações processadas, a distribuição de sentimentos e as médias de avaliação por setor, facilitando a tomada de decisão rápida sobre os clientes detratores:
+
+![Dashboard Indata](images/image_3b05a7.png)
 
 ---
 
