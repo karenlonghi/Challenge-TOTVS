@@ -1,9 +1,9 @@
-# Enterprise Challenge FIAP & TOTVS (012024)
+# Challenge FIAP & TOTVS 
 
 ## 📌 Introdução
 Este projeto foi desenvolvido como parte do **Enterprise Challenge**, uma atividade extensionista do curso de **Tecnologia em Data Science, Big Data, BI & Data Engineering** da **FIAP**. 
 
-O objetivo principal do Challenge é simular a experiência profissional do mercado de trabalho através de uma metodologia *hands-on*, aplicando técnicas, ferramentas e boas práticas acadêmicas para propor soluções reais a desafios demandados por empresas parceiras. Nesta edição, o projeto foi construído em parceria com a **TOTVS**, uma das maiores empresas de tecnologia do mundo e líder no mercado de Software de Gestão Empresarial (ERP) no Brasil[cite: 1].
+O objetivo principal do Challenge é simular a experiência profissional do mercado de trabalho através de uma metodologia *hands-on*, aplicando técnicas, ferramentas e boas práticas acadêmicas para propor soluções reais a desafios demandados por empresas parceiras. Nesta edição, o projeto foi construído em parceria com a **TOTVS**, uma das maiores empresas de tecnologia do mundo e líder no mercado de Software de Gestão Empresarial (ERP) no Brasil.
 
 ---
 
