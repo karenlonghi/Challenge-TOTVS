@@ -1,4 +1,4 @@
-# Challenge FIAP & TOTVS — Assistente de Voz e Transcrição Inteligente
+# Challenge FIAP & TOTVS - Assistente de Voz e Transcrição Inteligente
 
 ## 📌 Introdução
 Este projeto foi desenvolvido como parte do **Enterprise Challenge**, uma atividade extensionista do curso de **Tecnologia em Data Science, Big Data, BI & Data Engineering** da **FIAP**. 
